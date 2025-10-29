@@ -17,7 +17,6 @@ Each member's e-mail address is _account_ [at] eidos.ic.i.u-tokyo.ac.jp.
 |Doctoral Course Student|Haotian Gao|高 昊天|jimmygao|:cn:|
 |Doctoral Course Student|Zheng DONG|董 正|dong|:cn:|
 |Master Course Student|Kishin MATSUOKA|松岡 暉心|matsuoka|:jp:|
-|Master Course Student|Koshi EGUCHI|江口 航志|eguchi|:jp:|
 |Master Course Student|Hiromu SASAKI|佐々木 大夢|sasahiro|:jp:|
 |Master Course Student|Sosuke HOSOKAWA|細川 颯介|sosuke|:jp:|
 |Master Course Student|Shohei WATANABE|渡邊 梢平|shohei|:jp:|

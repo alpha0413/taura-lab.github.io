@@ -5,6 +5,21 @@ nav_exclude: true
 ---
 
 # Taura Laboratory's Alumni
+
+## 2025 autumn
+
+||Name (Given FAMILY)|名前 (姓 名)|Account|Nationality|
+|---|---|---|---|---|
+|Master Course Student|Koshi EGUCHI|江口 航志|eguchi|:jp:|
+
+## 2025 spring
+
+||Name (Given FAMILY)|名前 (姓 名)|Account|Nationality|
+|---|---|---|---|---|
+|Master Course Student|Yuji TONE|利根 悠司|tone|:jp:|
+|Master Course Student|Takumi HIRAOKA|平岡 拓海|hiraoka|:jp:|
+|Undergraduate Student|Luna SUGIYAMA|杉山 月渚|sugi|:jp:|
+
 ## 2024 spring
 
 ||Name (Given FAMILY)|名前 (姓 名)|Account|Nationality|
