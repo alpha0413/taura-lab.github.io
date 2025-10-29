@@ -12,7 +12,28 @@ You can see recent thesis titles [here](thesis_titles).
 
 # On-going topics
 
+## [HPC] High-Level, High-Performance General-Purpose Programming Frameworks
 
+  * [Task parallelism on GPU](research/gpu_task_parallelism)
+  * Chapel
+
+## [HPC] Software optimization / compiler optimization for AI hardware accelerator (GPU, post-GPU devices)
+
+  * [Analysis on Cerebras Wafer Scale Engine through Cross-entropy loss function](research/cerebras_project)
+  * Memory allocator for NVIDIA GH200
+
+## [ML] Spatial-temporal data application with LLM
+
+
+
+## [ML/HPC] Performance optimizations of transformer / post-transformer models
+
+
+
+## [ML] Differential Privacy
+
+
+  
 # Past topics
 
 ## High-Level, High-Performance General-Purpose Programming Frameworks
