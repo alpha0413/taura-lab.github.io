@@ -1,0 +1,6 @@
+{
+  "name": "taulab.github.io dev",
+  "image": "mcr.microsoft.com/devcontainers/ruby:3.2",
+  "features": {},
+  "postCreateCommand": "gem install bundler && bundle install"
+}
