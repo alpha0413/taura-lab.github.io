@@ -15,7 +15,8 @@ making everybody's research more efficient. We will be adding more in future.
   * [MassiveThreads](https://github.com/massivethreads/massivethreads) is a high performance multithreading library supporting millions of threads with Pthreads-compatible API. 
   * [GXP](https://github.com/qnu/gxp/) is a parallel shell for clusters, supercomputers, and distributed systems, also supporting parallel/distributed make. 
   * [sshfsmux](https://github.com/qnu/sshfsmux/) is a FUSE-based file system that allows a node to mount multiple hosts via ssh on the same mount point. 
-  * [paratrac](https://github.com/qnu/paratrac/) is a FUSE-based file system profiling tool 
+  * [paratrac](https://github.com/qnu/paratrac/) is a FUSE-based file system profiling tool.
+  * [Itoyori](https://github.com/itoyori/itoyori) is a distributed multi-threading runtime system for global-view fork-join task parallelism.
 
 ## Small Tools
 

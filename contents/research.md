@@ -12,7 +12,10 @@ You can see recent thesis titles [here](thesis_titles).
 
 # On-going topics
 
-
+{% for topic in site.data.research_topics.ongoing %}
+  * [{{ topic.title }}]({{ topic.url }})<span class="tags-container">{% for tag in topic.tags %}<span class="research-tag">#{{ tag }}</span>{% endfor %}</span>
+{% endfor %}
+  
 # Past topics
 
 ## High-Level, High-Performance General-Purpose Programming Frameworks
