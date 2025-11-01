@@ -8,8 +8,8 @@ ongoing:
   - title: "Analysis on Cerebras Wafer Scale Engine through Cross-entropy loss function"
     url: "research/cerebras_project"
     tags: ["HPC", "AI-hardware", "performance-optimization"]
-  - title: "Memory allocator for NVIDIA GH200"
-    url: "#"
+  - title: "Memory Optimization and Performance Acceleration in CPU–GPU Co-Coupled Architecture"
+    url: "research/co_coupled_hardware"
     tags: ["HPC", "GPU", "memory-management", "Pytorch"]
   - title: "Next POI prediction"
     url: "research/next_POI_prediction"
