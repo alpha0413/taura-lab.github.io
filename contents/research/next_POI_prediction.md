@@ -8,40 +8,44 @@ nav_exclude: true
 
 ## What is POI?
 
-POI (Point of Interest) is a specific point location that someone may find useful or interesting. For example, the Univerty of Tokyo is a POI, whose nearby-Nezu station, Todaimae station can also be the POI. 
+A Point of Interest (POI) is a specific location that someone may find useful or interesting. For example, the University of Tokyo is a POI, and nearby locations such as Nezu Station and Todaimae Station can also be considered POIs.
 
 ## The Source of POI
 
-Evolving Location Based Social Networks (LBSNs) platform, e.g. Foursquare, Gowalla, Tabelog(Japan's platform, but it doesn't open data).
+Evolving Location Based Social Networks (LBSNs) platform, e.g., Foursquare, Gowalla, Tabelog(Japan's platform, but it doesn't open data).
 
-<figure>
-  <img src="./../img/POI_data.png" alt="POI" width="600">
-  <figcaption>Figure 1: the example of POI source data.</figcaption>
+<figure style="text-align: center;">
+  <img src="./../img/POI_data.png" alt="POI_data" width="900">
+  <figcaption style="font-weight: bold; margin-top: 8px;">
+    Figure 1: The example of POI source data
+  </figcaption>
 </figure>
 
-As shown in Figure 1, one user check in the Bookoff, so the platform can record his user ID, check-in POI ID, check-in time, latitude, longitude... Our task is based on these check-in data to finish next POI prediction.
+As shown in Figure 1, one user checks in the Bookoff, so the platform can record his user ID, check-in POI ID, check-in time, latitude, longitude... Our task is based on the check-in data to finish the next POI prediction.
 
-## What is next POI prediction?
+## What is the next POI prediction?
 
-Now, we have a lot of users and user's check-in data. Specifically, we define these data as follows:
+Now, we have a lot of users and users' check-in data. Specifically, we define these data as follows:
 
 User set: $$U=\{u_1,u_2,\ldots,u_{|U|}\}.$$
 
 POI set: $$P=\{p_1,p_2,\ldots,p_{|P|}\},\quad p=\langle lat,lon,(\text{cat}),\ldots\rangle.$$
 
-**Cat** means POI's category like restaurant is optional.
+**Cat** means POI's category, like restaurant, is optional.
 
 User check-in set: $$q^{u}=\langle p,t\rangle.$$
 
-**t** is check-in time stamp.
+**t** is the check-in time stamp.
 
 User check-in trajectory set: $$S^{u}=\langle q^{u}_1,q^{u}_2,\ldots,;q^{u}_{|S^{u}|}\rangle.$$
 
 As shown in Figure 2, based on User check-in trajectory set, we need to predict next POI the user will be most likely to visit.
 
-<figure>
-  <img src="./../img/POI_prediction.png" alt="POI prediction" width="600">
-  <figcaption>Figure 2: the example of next POI prediction.</figcaption>
+<figure style="text-align: center;">
+  <img src="./../img/POI_prediction.png" alt="POI_prediction" width="600">
+  <figcaption style="font-weight: bold; margin-top: 8px;">
+    Figure 2: The example of next POI prediction.
+  </figcaption>
 </figure>
 
 
@@ -51,14 +55,16 @@ As shown in Figure 2, based on User check-in trajectory set, we need to predict 
 
 A graph is a set of nodes (vertices) and edges that describe relationships. In our datasets, nodes can be POIs, users, or time slots; edges encode interactions such as “user visited POI,” “two POIs are frequently visited consecutively,” or spatial proximity. Edges may carry weights (frequency, distance) and types (spatial, temporal, semantic).
 
-<figure>
-  <img src="./../img/POI_graph.png" alt="POI graph" width="600">
-  <figcaption>Figure 3: the example of a POI-POI transition graph. [1] .</figcaption>
+<figure style="text-align: center;">
+  <img src="./../img/POI_graph.png" alt="POI_graph" width="900">
+  <figcaption style="font-weight: bold; margin-top: 8px;">
+    Figure 3: The example of a POI-POI transition graph. [1]
+  </figcaption>
 </figure>
 
 ### What is GNN?
 
-GNN (Graph Neural Network) learns representations for nodes/edges/graphs by iteratively aggregating information from each node’s neighbors. At each layer, a node updates its embedding using its own features and messages from adjacent nodes, allowing the model to capture higher-order structure, heterogeneity, and long-range dependencies. We use GNN to mining graph knowledge to improve next POI prediction.
+GNN (Graph Neural Network) learns representations for nodes/edges/graphs by iteratively aggregating information from each node’s neighbors. At each layer, a node updates its embedding using its own features and messages from adjacent nodes, allowing the model to capture higher-order structure, heterogeneity, and long-range dependencies. We use GNN to mine graph knowledge to improve next POI prediction.
 
 ### Some past graph-based works
 
