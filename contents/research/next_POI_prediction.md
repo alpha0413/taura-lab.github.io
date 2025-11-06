@@ -15,7 +15,7 @@ POI (Point of Interest) is a specific point location that someone may find usefu
 Evolving Location Based Social Networks (LBSNs) platform, e.g. Foursquare, Gowalla, Tabelog(Japan's platform, but it doesn't open data).
 
 <figure>
-  <img src="./../img/POI_data.png" alt="POI" width="300">
+  <img src="./../img/POI_data.png" alt="POI" width="600">
   <figcaption>Figure 1: the example of POI source data.</figcaption>
 </figure>
 
@@ -40,7 +40,7 @@ User check-in trajectory set: $$S^{u}=\langle q^{u}_1,q^{u}_2,\ldots,;q^{u}_{|S^
 As shown in Figure 2, based on User check-in trajectory set, we need to predict next POI the user will be most likely to visit.
 
 <figure>
-  <img src="./../img/POI_prediction.png" alt="POI prediction" width="300">
+  <img src="./../img/POI_prediction.png" alt="POI prediction" width="600">
   <figcaption>Figure 2: the example of next POI prediction.</figcaption>
 </figure>
 
@@ -52,7 +52,7 @@ As shown in Figure 2, based on User check-in trajectory set, we need to predict 
 A graph is a set of nodes (vertices) and edges that describe relationships. In our datasets, nodes can be POIs, users, or time slots; edges encode interactions such as “user visited POI,” “two POIs are frequently visited consecutively,” or spatial proximity. Edges may carry weights (frequency, distance) and types (spatial, temporal, semantic).
 
 <figure>
-  <img src="./../img/POI_graph.png" alt="POI graph" width="300">
+  <img src="./../img/POI_graph.png" alt="POI graph" width="600">
   <figcaption>Figure 3: the example of a POI-POI transition graph. [1] .</figcaption>
 </figure>
 
