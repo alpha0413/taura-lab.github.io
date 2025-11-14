@@ -27,9 +27,9 @@ As shown in Figure 1, one user checks in the Bookoff, so the platform can record
 
 Now, we have a lot of users and users' check-in data. Specifically, we define these data as follows:
 
-User set: $$U=\{u_1,u_2,\ldots,u_{|U|}\}.$$
+User set: $$U=\{u_1,u_2,\ldots,u_{\lvert U\rvert}\}.$$
 
-POI set: $$P=\{p_1,p_2,\ldots,p_{|P|}\},\quad p=\langle lat,lon,(\text{cat}),\ldots\rangle.$$
+POI set: $$P=\{p_1,p_2,\ldots,p_{\lvert P\rvert}\},\quad p=\langle lat,lon,(\text{cat}),\ldots\rangle.$$
 
 **Cat** means POI's category, like restaurant, is optional.
 
@@ -37,7 +37,7 @@ User check-in set: $$q^{u}=\langle p,t\rangle.$$
 
 **t** is the check-in time stamp.
 
-User check-in trajectory set: $$S^{u}=\langle q^{u}_1,q^{u}_2,\ldots,;q^{u}_{|S^{u}|}\rangle.$$
+User check-in trajectory set: $$S^{u}=\langle q^{u}_1,q^{u}_2,\ldots,;q^{u}_{\lvert S^{u}\rvert}\rangle.$$
 
 As shown in Figure 2, based on User check-in trajectory set, we need to predict next POI the user will be most likely to visit.
 
