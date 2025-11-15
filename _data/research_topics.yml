@@ -2,9 +2,9 @@ ongoing:
   - title: "Task parallelism on GPU"
     url: "research/gpu_task_parallelism"
     tags: ["HPC", "GPU", "parallelism", "performance-optimization"]
-  - title: "Chapel"
-    url: "#"
-    tags: ["HPC", "programming-language", "parallel"]
+  - title: "Flexible and Efficient GPU-ready PGAS Runtime System"
+    url: "research/gpu_pgas_runtime"
+    tags: ["HPC", "GPU", "programming-language", "parallel"]
   - title: "Analysis on Cerebras Wafer Scale Engine through Cross-entropy loss function"
     url: "research/cerebras_project"
     tags: ["HPC", "AI-hardware", "performance-optimization"]
