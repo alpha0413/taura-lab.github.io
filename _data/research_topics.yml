@@ -4,9 +4,11 @@ ongoing:
     tags: ["HPC", "GPU", "parallelism", "performance-optimization"]
     researchers:
       - name: "Yuki MAEDA"
-  - title: "Chapel"
-    url: "#"
-    tags: ["HPC", "programming-language", "parallel"]
+  - title: "Flexible and Efficient GPU-ready PGAS Runtime System"
+    url: "research/gpu_pgas_runtime"
+    tags: ["HPC", "GPU", "programming-language", "parallel"]
+    researchers:
+      - name: "Sosuke Hosokawa"
   - title: "Analysis on Cerebras Wafer Scale Engine through Cross-entropy loss function"
     url: "research/cerebras_project"
     tags: ["HPC", "AI-hardware", "performance-optimization"]
