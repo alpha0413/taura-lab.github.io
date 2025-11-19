@@ -4,13 +4,15 @@ title: Time-series forecasting
 nav_exclude: true
 ---
 
-## General Time Series Forecasting
+# Time-series forecasting
+
+## Time Series Forecasting
 
 Time series forecasting aims to predict the future evolution of signals that are ordered in time, such as electricity demand, stock prices, web traffic, environmental measurements, or sensor readings from complex systems. Compared with static prediction problems, time series forecasting must capture temporal dependencies, seasonality, long-term trends, and sudden regime changes, often under noisy and non-stationary conditions.
 
 Modern research has moved from single-variable, short-horizon forecasts to **long-horizon, multivariate, and multi-domain** forecasting, where a single model must reason over long histories and provide reliable predictions across many datasets and application scenarios.
 
-![](C:\Users\10205\Documents\GitHub\taura-lab.github.io\contents\img\time-series-forecasting.png)
+![](..\img\time-series-forecasting.png)
 
 ------
 
@@ -24,7 +26,7 @@ Formally, we work with multivariate time series collected from many locations (n
 - **Temporal dynamics** (daily/weekly patterns, rush hours, sudden changes), and  
 - **Spatial dependencies** (how conditions at one location influence its neighbors).
 
-![](C:\Users\10205\Documents\GitHub\taura-lab.github.io\contents\img\traffic.gif)
+![](..\img\traffic.gif)
 
 ---
 
@@ -76,6 +78,8 @@ Overall, time series forecasting is a core tool for **anticipating future behavi
 ### Problem Definition
 
 Given $N$ spatially distributed sensors, at every timestep $t$, each sensor has a $C$‑dimensional observation $X\in\mathbb{R}^{C}$. For an input tensor $X^c\in\mathbb{R}^{T\times N\times C}$ = $X_{t-T+1:t}$ that contains the most recent $T$ steps, the forecasting task is to predict the next $T'$ steps for all nodes and channels:
+
+
 $$
 \begin{equation}
 \widehat{X}_{t+1:t+T'}=F_{\theta}\!\bigl(X_{t-T+1:t}\bigr),\qquad 
