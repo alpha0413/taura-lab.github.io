@@ -34,18 +34,15 @@ computers much more accessible to domain scientists.
 For our current research topics, please refer to the [*Research* section](contents/research) of this HP.
 Additionally, videos and documents used in past lab introductions can be accessed below.
 
-現在取り組まれている研究テーマに関しては，本サイトの [*Research*セクション](contents/research) からご覧になれます．
+現在取り組まれている研究テーマに関しては，本サイトの [Researchセクション](contents/research) からご覧になれます．
 その他にも，過去の研究室紹介で使用した動画や文書が以下からアクセスできます．
 
 <details markdown="1">
   <summary>過去の研究室紹介の資料 (click here)</summary>
 
-  * 2025/5 入試説明会
-    * [研究紹介ポスター](contents/files/intro_2025/poster-2025-working.pdf)
-  * 2024/5 入試説明会
-    * [研究紹介スライド](contents/files/intro_2024/souzou-slides-2024.pdf)
-  * 2023/5 入試説明会
-    * [研究紹介ポスター](contents/files/intro_2023/poster-2023-working.pdf)
+  * 2025/5 入試説明会 [研究紹介ポスター](contents/files/intro_2025/poster-2025-working.pdf)
+  * 2024/5 入試説明会 [研究紹介スライド](contents/files/intro_2024/souzou-slides-2024.pdf)
+  * 2023/5 入試説明会 [研究紹介ポスター](contents/files/intro_2023/poster-2023-working.pdf)
   * 2023/1 [卒論配属説明会ポスター](contents/files/intro_2023/Taura-Lab-2023.pdf)
   * 2022/5/21 入試説明会（電子情報学専攻）
     * [研究紹介ビデオ（Japanese）](https://youtu.be/21166z372R8) [[PDF]](contents/files/intro_2022/taura-lab-intro-ja.pdf)
@@ -67,6 +64,10 @@ Additionally, videos and documents used in past lab introductions can be accesse
 </details>
 
 ## News (ニュース)
+  * 2025 Dec. 18: 修士課程 細川颯介と学士課程 前田優希の口頭発表が，[LATHC 2026](https://jnamaral.github.io/LATHC26/)に採択されました．(Oral presentations by Sosuke Hosokawa and Yuki Maeda have been accepted to [LATHC 2026](https://jnamaral.github.io/LATHC26/).)
+  * 2025 Oct. 7-10: 修士課程 細川颯介とインターン学生 Thitrin Sastarasadhit が [ChapelCon 2025](https://chapel-lang.org/chapelcon25/) にて発表しました． (Sosuke Hosokawa and Thitrin Sastarasadhit presented at [ChapelCon 2025](https://chapel-lang.org/chapelcon25/))
+  * 2025 Aug. 4-6: 修士課程 高橋淳一郎が [SWoPP2025](https://sites.google.com/site/swoppweb/) において "Cache Coherent な Heterogeneous Computing 環境での機械学習に向けた性能評価" を発表し，Outstanding Student Award を受賞しました．(Junichiro Takahashi, a master’s course student, presented 'a performance evaluation for machine learning in a cache-coherent heterogeneous computing environment' at [SWoPP2025](https://sites.google.com/site/swoppweb/) and received the Outstanding Student Award.)
+  * 2025 Feb. 19: 田浦と, サイボウズLab 星野喬氏 (田浦研卒業生) の共著論文 [Fairer and More Scalable Reader-Writer Locks by Optimizing Queue Management](https://dl.acm.org/doi/10.1145/3710848.3710877) が PPoPP 2025 に採択されました．(A paper co-authored by Taura and Takashi Hoshino (Cybouzu Lab), an alumnus of the Taura Lab, titled ["Fairer and More Scalable Reader-Writer Locks by Optimizing Queue Management"](https://dl.acm.org/doi/10.1145/3710848.3710877) , has been accepted to PPoPP 2025.)
   * 2024 Dec. 12: 修士課程 利根悠司らの論文 "ContinuouSP: Generative Model for Crystal Structure Prediction with Invariance and Continuity" が [AI2ASE 2025](https://ai-2-ase.github.io/) に採択されました． (A paper by Yuji Tone et al. has been accepted by [AI2ASE 2025](https://ai-2-ase.github.io/))
   * 2024 Jun. 26: 卒業生 椎名峻平が，2023-HPC-190での発表について，[2024年度コンピュータサイエンス領域奨励賞](https://www.ipsj.or.jp/award/cs-award-2024.html)を受賞しました．(Shumpei Shiina won the IPSJ Computer Science Research Award for Young Scientists for his presentation at 2023-HPC-190)
   * 2024 Mar. 21: 博士課程 椎名峻平の博士論文 "Task Parallelism at Scale: Locality-Aware Scheduling and Global Address Space (局所性に配慮したスケジューリングと大域アドレス空間による大規模タスク並列処理)" が情報理工学系研究科 研究科長賞に選ばれました． (Shumpei Shiina received a Dean's award from the Graduate School of Information Science and Technology.)
