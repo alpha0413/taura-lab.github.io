@@ -40,6 +40,13 @@ Additionally, videos and documents used in past lab introductions can be accesse
 <details markdown="1">
   <summary>過去の研究室紹介の資料 (click here)</summary>
 
+  * 2025/5 入試説明会
+    * [研究紹介ポスター](contents/files/intro_2025/poster-2025-working.pdf)
+  * 2024/5 入試説明会
+    * [研究紹介スライド](contents/files/intro_2024/souzou-slides-2024.pdf)
+  * 2023/5 入試説明会
+    * [研究紹介ポスター](contents/files/intro_2023/poster-2023-working.pdf)
+  * 2023/1 [卒論配属説明会ポスター](contents/files/intro_2023/Taura-Lab-2023.pdf)
   * 2022/5/21 入試説明会（電子情報学専攻）
     * [研究紹介ビデオ（Japanese）](https://youtu.be/21166z372R8) [[PDF]](contents/files/intro_2022/taura-lab-intro-ja.pdf)
     * ブレイクアウトルームで実施する「お便りコーナー」ための[質問・意見箱](https://app.sli.do/event/6VG8Nko46LCUCn4ehAvDpP/live/questions)．当日，佐藤助教や所属学生が適当に答えます．記名は任意で，自由な質問や意見<del>及びボケ</del>をお待ちしています．

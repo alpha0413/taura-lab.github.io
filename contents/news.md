@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Old News since 2014 Nov. (ニュース)
+title: Old News since 2014 Nov. (過去のニュース)
 nav_exclude: true
 ---
 
-# Old News since 2014 Nov. (ニュース)
+# Old News since 2014 Nov. (過去のニュース)
   * 2021 Dec. 6: 卒業生 遠藤亘の博士研究の仕事 "ComposableThreads: Rethinking User-level Threads with Composability and Parametricity in C++" がJournal of Information Processingに採択されました．(A paper by Endo et al. got accepted to Journal of Information Processing.)
   * 2021 Nov. 1: 卒業生 井原央翔のPRO-2020-1における発表が，[CS領域奨励賞](https://www.ipsj.or.jp/award/cs-awardee-2021.html)を受賞しました．(Ihara Hiroka recieved [IPSJ Computer Science Research Award for Young Scientists](https://www.ipsj.or.jp/award/cs-awardee-2021.html).)
   * 2021 Jul. 27: 卒業生 藤村柊吾らの論文 "An Efficient and Scalable Distributed Hypergraph Processing System" がJournal of Information Processingに採択されました．(A paper by Fujimura et al. got accepted to Journal of Information Processing.)
