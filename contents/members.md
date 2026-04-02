@@ -26,6 +26,7 @@ Each member's e-mail address is _account_ [at] eidos.ic.i.u-tokyo.ac.jp.
 |Master Course Student|Ken SUGIMOTO|杉本 健|sugimoto|:jp:|
 |Undergraduate Student|Rinnosuke SAITO|齋藤 凜ノ助|rinno|:jp:|
 |Research Student|Mato Alejandro|マト アレハンドロ|couci|:andorra:|
+|Bachelor Course Student|Gen SAKAI|酒井 元|gsakai|:jp:|
 
 ## Past Members
 
